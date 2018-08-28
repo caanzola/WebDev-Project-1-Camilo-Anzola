@@ -8,6 +8,10 @@ Por medio de este proyecto se busca poder poner en práctica los conocimientos a
 # 
 La realización de una página web personal me permitirá aterrizar los conceptos de las lecturas y llevarlos a la práctica.
 
+# CÓMO SE CORRE
+1. Hacer click en el siguiente enlace: http://camiloanzola.22web.org/
+2. Clonar el proyecto y abrir el index.html en un browser de su preferencia.
+
 # TECNOLOGÍAS USADAS
 
 - HTML 5
