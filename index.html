@@ -16,7 +16,7 @@
     <link rel="icon" href="img/favicon.ico"/>
 </head>
 
-<body>
+<body onload="myFunction()">
     <nav class="barra">
         <ul class="cosasBarra">
             <li><a href="#header" class="nounderline">Home</a></li>
@@ -62,28 +62,44 @@
                         <P style="font-size: 18px">
                             Here some projects which I`ve been part of...
                         </P>
-                        <table>
-                            <tr>
-                                <td>
+                        
                                     <h3>* PATCHES</h3>
                                     <P style="font-size: 18px">
-                                    Patches is a chatbot for facebook messenger. It was made for helping depressed people. 
+                                    Patches is a chatbot for facebook messenger. <br>It was made for helping depressed people. 
                                     More info here.
                                      </P>
-                                    <video src="img/patches.mp4" style="height: 400px; width: 280; margin-top: 2%; margin-left: 30%" autoplay muted loop></video>
-                                </td>
+                                     <div id="loader">
+                                     </div>
+                                    <div style="display:block;" id="myDiv" class="animate-bottom">
+                                        <video src="img/patches.mp4" style="height: 400px; width: 280; margin-top: 2%; margin-left: 30%" autoplay muted loop></video>
+                                    </div>
+                                      
 
-                            </tr>
-                        </table>
+                                    
                         <br>
                         <h3>* HELP BUDDY </h3>
                                     <P style="font-size: 18px">
                                     Help Buddy is a web app that was made for matching people who needs something with people who can answer to that needing.
                                     More info here.
                                      </P>
+                       <div id="loader2">
 
-                       
-                                      <video src="img/HelpBuddy.mp4" style="height: 400px; width: 280; margin-top: 2%;margin-left: 40%" autoplay muted loop></video>
+                                     </div>
+                                      <video src="img/HelpBuddy1.mp4" style="height: 400px; width: 280; margin-top: 2%;margin-left: 40%" autoplay muted loop></video>
+
+                                      <script>
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 79000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("loader2").style.display = "none";
+ 
+}
+</script>
 
 
                     </div>
