@@ -35,6 +35,9 @@
                     <div class="header-content-left" style="margin-left: 35%">
                         <h1 style="font-size: 65px">WELCOME</h1>
                         <p class="mt-5" style="font-size: 25px">Hi! I am Camilo Anzola and this is my personal website, here you can know more about me</p>
+                        <button class="butn" onclick="downloadCV()">
+                            Download my CV
+                        </button>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6">
@@ -66,7 +69,8 @@
                                     <h3>* PATCHES</h3>
                                     <P style="font-size: 18px">
                                     Patches is a chatbot for facebook messenger. <br>It was made for helping depressed people. 
-                                    More info here.
+                                    <br>
+                                    <a href="https://github.com/caanzola/PatchesApp">Read more...</a>
                                      </P>
                                      <div id="loader">
                                      </div>
@@ -80,7 +84,8 @@
                         <h3>* HELP BUDDY </h3>
                                     <P style="font-size: 18px">
                                     Help Buddy is a web app that was made for matching people who needs something with people who can answer to that needing.
-                                    More info here.
+                                    <br>
+                                    <a href="https://github.com/paalvarado10/help-buddy">Read more...</a>
                                      </P>
                        <div id="loader2">
 
@@ -88,18 +93,22 @@
                                       <video src="img/HelpBuddy1.mp4" style="height: 400px; width: 280; margin-top: 2%;margin-left: 40%" autoplay muted loop></video>
 
                                       <script>
-var myVar;
+                    var myVar;
 
-function myFunction() {
-  myVar = setTimeout(showPage, 79000);
-}
+                    function myFunction() {
+                      myVar = setTimeout(showPage, 79000);
+                    }
 
-function showPage() {
-  document.getElementById("loader").style.display = "none";
-  document.getElementById("loader2").style.display = "none";
- 
-}
-</script>
+                    function showPage() {
+                      document.getElementById("loader").style.display = "none";
+                      document.getElementById("loader2").style.display = "none";
+                     
+                    }
+
+                    function downloadCV(){
+                        window.open("img/cv.pdf");
+                    }
+                    </script>
 
 
                     </div>
@@ -141,8 +150,8 @@ function showPage() {
 
                     <h3 style=" margin-top: 33%">* PETTY APP</h3>
                                     <P style="font-size: 18px">
-                                    Petty is an app for iOS and Android. It was made for taking care of people's pets.
-                                    More info here.
+                                    Petty is an app for iOS and Android. It was made for taking care of people's pets. <br>
+                                    <a href="https://gitlab.com/isis3510_201910_team12/wiki/wikis/Home">Read more...</a>
                                      </P>
 
                         <table>
